@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "datetime": 1795398985,
+    "files": [
+      {
+        "filename": "lineage-23.2-20261123-015625-UNOFFICIAL-titan_pocket.zip",
+        "os_patch_level": "2026-11-01",
+        "os_sdk_level": 36,
+        "sha256": "bb819191d65e321519f5fb6f6c5f00471b76d119a7d7d8051ebee988c6c16a77",
+        "size": 991884255,
+        "url": "https://github.com/roge-rm/titan-pocket-lineage/releases/download/lineage-23.2-20261123-015625/lineage-23.2-20261123-015625-UNOFFICIAL-titan_pocket.zip"
+      }
+    ],
+    "type": "unofficial",
+    "version": "23.2"
+  }
+]
