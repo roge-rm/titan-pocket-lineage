@@ -2,7 +2,7 @@
 
 An unofficial LineageOS 23 (Android 16) build for the Unihertz Titan Pocket. It runs on a 5.10 kernel. The source is in [android_device_unihertz_titan_pocket](https://github.com/roge-rm/android_device_unihertz_titan_pocket) and [android_kernel_unihertz_mt6771](https://github.com/roge-rm/android_kernel_unihertz_mt6771). Download the files from the [Releases](https://github.com/roge-rm/titan-pocket-lineage/releases).
 
-Calls, the modem, Wi-Fi, Bluetooth, GPS, the camera, charging and updates work.
+Calls (including VoLTE), data, SMS, Wi-Fi, Bluetooth, GPS, the camera, charging and updates work. So far this has only been tested with Fido in Canada.
 
 Let me know what works and what doesn't by opening an issue here.
 
