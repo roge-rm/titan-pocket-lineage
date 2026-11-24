@@ -37,6 +37,7 @@ Added on top of LineageOS:
 | Display modes | Stock's portrait mini mode, square zoom-out modes in several sizes and a custom size. Quick Settings tile, hold FUNC1 and FUNC2 for a second to go back to normal |
 | Charging control | Settings, Battery |
 | Front strip | Tap for Home |
+| Lock screen | Type your PIN on the keyboard |
 | Root through updates | Keeps Magisk root after an update (see Updates) |
 
 Let me know what works and what doesn't by opening an issue here.
