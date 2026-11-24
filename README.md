@@ -2,7 +2,42 @@
 
 An unofficial LineageOS 23 (Android 16) build for the Unihertz Titan Pocket. It runs on a 5.10 kernel. The source is in [android_device_unihertz_titan_pocket](https://github.com/roge-rm/android_device_unihertz_titan_pocket) and [android_kernel_unihertz_mt6771](https://github.com/roge-rm/android_kernel_unihertz_mt6771). Download the files from the [Releases](https://github.com/roge-rm/titan-pocket-lineage/releases).
 
-Calls (including VoLTE), data, SMS, Wi-Fi, Bluetooth, GPS, the camera, charging and updates work. So far this has only been tested with Fido in Canada.
+## What works
+
+Tested on my own phone. So far it has only been tested with Fido in Canada.
+
+| Feature | Status |
+|---|---|
+| Calls and VoLTE, both SIM slots, SIM swap | Works |
+| SMS | Works |
+| Mobile data | Works, off by default |
+| Wi-Fi | Works |
+| Bluetooth, music and calls | Works |
+| GPS | Works |
+| Front and rear camera, flash, 1080p video | Works |
+| Flashlight | Works |
+| Fingerprint (front strip) | Works |
+| Speaker, mic and headphones | Works |
+| FM radio | Works, needs headphones |
+| Keyboard, keyboard light and touchpad | Works |
+| Charging, also with the phone off | Works |
+| Sleep | Works |
+| USB (adb, file transfer) | Works |
+| Encryption, SELinux enforcing | Works |
+| Updates through the Updater | Works |
+| IR blaster | LED lights up, not tried on a TV yet |
+| Notification light | Not tested |
+| MMS, hotspot, Wi-Fi calling, NFC, microSD, USB OTG | Not tested |
+
+Added on top of LineageOS:
+
+| Feature | What it does |
+|---|---|
+| Pocket Keyboard app | Keyboard light timeout, touchpad swipes to scroll or move the text cursor, Alt+B/C/S shortcuts, FUNC1 and FUNC2 press and long press actions |
+| Display modes | Stock's portrait mini mode, square zoom-out modes in several sizes and a custom size. Quick Settings tile, hold FUNC1 and FUNC2 for a second to go back to normal |
+| Charging control | Settings, Battery |
+| Front strip | Tap for Home |
+| Root through updates | Keeps Magisk root after an update (see Updates) |
 
 Let me know what works and what doesn't by opening an issue here.
 
