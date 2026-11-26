@@ -23,11 +23,12 @@ Tested on my own phone. So far it has only been tested with Fido in Canada.
 | Charging, also with the phone off | Works |
 | Sleep | Works |
 | USB (adb, file transfer) | Works |
+| microSD | Works with exFAT cards, FAT32 not tested yet |
 | Encryption, SELinux enforcing | Works |
 | Updates through the Updater | Works |
 | IR blaster | LED lights up, not tried on a TV yet |
 | Notification light | Not tested |
-| MMS, hotspot, Wi-Fi calling, NFC, microSD, USB OTG | Not tested |
+| MMS, hotspot, Wi-Fi calling, NFC, USB OTG | Not tested |
 
 Added on top of LineageOS:
 
@@ -35,6 +36,8 @@ Added on top of LineageOS:
 |---|---|
 | Pocket Keyboard app | Keyboard light timeout, touchpad swipes to scroll or move the text cursor, Alt+B/C/S shortcuts, FUNC1 and FUNC2 press and long press actions |
 | Display modes | Stock's portrait mini mode, square zoom-out modes in several sizes and a custom size. Quick Settings tile, hold FUNC1 and FUNC2 for a second to go back to normal |
+| Pocket Rotation app | Choose how apps may rotate the screen |
+| Camera on the square screen | Aperture's preview fills the screen, with a 1:1 photo ratio |
 | Charging control | Settings, Battery |
 | Front strip | Tap for Home |
 | Lock screen | Type your PIN on the keyboard |
@@ -82,7 +85,7 @@ If you use Magisk, run this once to keep root through updates:
 
     su -c pocket-magisk-stash enable
 
-After that, each update the Updater downloads gets a Magisk patched boot ready, and recovery writes it after the update. `su -c pocket-magisk-stash status` shows what's ready. `su -c pocket-magisk-stash disable` turns it off. It needs Magisk 28 or newer. Wait for the download to finish before you tap Install.
+After that, each update the Updater downloads gets a Magisk patched boot ready, and recovery writes it after the update. `su -c pocket-magisk-stash status` shows what's ready. `su -c pocket-magisk-stash disable` turns it off. It needs Magisk 28 or newer. A notification says when the Magisk patched boot is ready. Tap Install after it says "Root is ready for the update".
 
 ## Go back to stock
 
